@@ -4,6 +4,7 @@
     <list default="true" id="d41c1108-26d1-44ab-aeff-b9ca5d2e4a36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1_2.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2486">
+              <caret line="136" column="249" selection-start-line="136" selection-start-column="249" selection-end-line="136" selection-end-column="249" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -93,6 +98,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/top.html" />
+        <option value="$PROJECT_DIR$/1_2.html" />
       </list>
     </option>
   </component>
@@ -136,6 +142,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -161,12 +168,12 @@
       <option name="presentableId" value="Default" />
       <updated>1585136687212</updated>
       <workItem from="1585136691874" duration="780000" />
-      <workItem from="1585759305365" duration="1148000" />
+      <workItem from="1585759305365" duration="1467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1928000" />
+    <option name="totallyTimeSpent" value="2247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,11 +224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/top.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -229,8 +231,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1_2.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2486">
+          <caret line="136" column="249" selection-start-line="136" selection-start-column="249" selection-end-line="136" selection-end-column="249" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
