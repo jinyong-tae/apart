@@ -48,7 +48,7 @@ input[type=checkbox], input[type=radio] { width:18px; height:18px;}
 box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ; 
 -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ; 
 -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ; }
-#topmenu_w #topmenu .t_bigmenu .t_menu .logo { width:218px; height:119px; background:url(../../images/common/logo.png) no-repeat;padding:0; margin:0 24px;}
+#topmenu_w #topmenu .t_bigmenu .t_menu .logo { width:218px; height:119px; background:url(../images/logo.png) no-repeat;padding:0; margin:0 24px;}
 #submenu .t_submenu  {position:relative; width:1100px; margin:0 auto; overflow:hidden;}
 #submenu .t_submenu .submenu_wrap {overflow:hidden;}
 #submenu .t_submenu .submenu_wrap ul {position:relative; float:left; height:200px; text-align:center; width:154px;}
@@ -192,6 +192,7 @@ box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ;
 .tit1:before {content:''; display:block; width:27px; height:5px;  background:rgba(0, 0, 0, 0.7); position:relative; top:0; margin-bottom:3px;}
 .tit1 u { text-decoration:none; display:inline-block; font-weight:normal; font-size:13px; color:rgba(0, 0, 0, 0.7);}
 .tit1 u:before {content:''; display:inline-block; width:1px; height:11px;  background:#dbdbdb; margin:0 12px; }
+.tit1 u.s1 { margin-left:30px; }
 
 .td1 { width:100%;border-top:1px solid rgba(0, 0, 0, 0.15);}
 .td1 thead {background:rgba(145, 35, 81, 0.8);}
@@ -249,6 +250,7 @@ box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)  ;
 .map dl dd .link:hover {background:rgba(145, 35, 81, 1.0);}
 
 .com1 { margin-bottom:60px;}
+.com1 img { display:block;width:100%; }
 
 .info1 {}
 .info1 h3 { text-align:center; margin-bottom:35px;}

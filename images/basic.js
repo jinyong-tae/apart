@@ -1,6 +1,6 @@
 
-<!-- Å¾¸Þ´º --> 
-// ¸ð¹ÙÀÏÀÏ °æ¿ì
+<!-- Å¾ï¿½Þ´ï¿½ --> 
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 	if (navigator.userAgent.match(/iPad/) == null && navigator.userAgent.match(/iPhone|Mobile|UP.Browser|Android|BlackBerry|Windows CE|Nokia|webOS|Opera Mini|SonyEricsson|opera mobi|Windows Phone|IEMobile|POLARIS/) != null){
 		$(function(){
 			$("#topmenu").click(function(){
@@ -8,7 +8,7 @@
 			});
 		});//function
 
-	// PCÀÏ °æ¿ì
+	// PCï¿½ï¿½ ï¿½ï¿½ï¿½
 	} else {
 		$(function(){
 			$('.t_bigmenu').mouseenter(function(){
@@ -19,25 +19,25 @@
 			});
 
 			$("#link_menu01").click(function() {
-				location.href='/company/company01.php';
+				location.href='/apart/1_1.html';
 			});
 			$("#link_menu02").click(function() {
-				location.href='/product/product01.php';
+				location.href='/apart/2_1.html';
 			});
 			$("#link_menu03").click(function() {
-				location.href='/plane/plane01.php?t=01';
+				location.href='/apart/3_1.html';
 			});
 			$("#link_menu04").click(function() {
-				location.href='/';
+				location.href='/apart/1_1.html';
 			});
 			$("#link_menu05").click(function() {
-				location.href='/plane/plane02.php';
+				location.href='/apart/4_1.html';
 			});
 			$("#link_menu06").click(function() {
-				location.href='/board/link.php';
+				location.href='/apart/5_1.html';
 			});
 			$("#link_menu07").click(function() {
-				location.href='/board/interest.php';
+				location.href='/apart/6_1.html';
 			});
 			
 			
@@ -46,7 +46,7 @@
 	}
 	
 
-<!-- ÁÙ°ÜÃ£±â -->
+<!-- ï¿½Ù°ï¿½Ã£ï¿½ï¿½ -->
 $(document).ready(function() {
     $('#favorite').on('click', function(e) {
         var bookmarkURL = window.location.href;
@@ -69,7 +69,7 @@ $(document).ready(function() {
             window.external.AddFavorite(bookmarkURL, bookmarkTitle);
         } else {
             // WebKit - Safari/Chrome
-            alert((navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Cmd' : 'Ctrl') + '+D Å°¸¦ ´­·¯ Áñ°ÜÃ£±â¿¡ µî·ÏÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.');
+            alert((navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Cmd' : 'Ctrl') + '+D Å°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã£ï¿½â¿¡ ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.');
         }
 
         return triggerDefault;
@@ -78,7 +78,7 @@ $(document).ready(function() {
 
 
 
-<!-- ¸µÅ© Á¡¼± ¾ø¾Ö±â --> 
+<!-- ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ö±ï¿½ --> 
 function bluring(){ 
 if(event.srcElement.tagName=="A"||event.srcElement.tagName=="IMG") document.body.focus();} 
 document.onfocusin=bluring; 
@@ -86,7 +86,7 @@ document.onfocusin=bluring;
 
 
 
-<!-- »õÃ¢ ¶ç¿ì±â -->
+<!-- ï¿½ï¿½Ã¢ ï¿½ï¿½ï¿½ï¿½ -->
 function openPop(url, pWidth, pHeight, pScroll)
 {
 	window.open(url,'','width='+ pWidth+',height='+pHeight+',scrollbars='+pScroll+',resizable=no');
@@ -94,7 +94,7 @@ function openPop(url, pWidth, pHeight, pScroll)
 
 
 
-<!-- Á¡ÇÁ¸Å´º --> 
+<!-- ï¿½ï¿½ï¿½ï¿½ï¿½Å´ï¿½ --> 
 function MM_openBrWindow(theURL,winName,features) { //v2.0
   window.open(theURL,winName,features);
 }
@@ -102,7 +102,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 
 
 
-<!-- Á¡ÇÁ¸Å´º 2--> 
+<!-- ï¿½ï¿½ï¿½ï¿½ï¿½Å´ï¿½ 2--> 
 $(function(){
 	$('#jumpmenu').mouseenter(function(){
 		$('.j_menu').slideDown(150);
@@ -126,8 +126,8 @@ $(function(){
 	var current=-1; 
 	prev=null; 
 	interval=null;
-	fade_speed=500; //½½¶óÀÌµù ¾Ö´Ï¸ÞÀÌ¼Ç ¼Óµµ
-	delay_speed=5000; //´Ù¸¥ ³»¿ëÀ¸·Î º¯°æµÇ´Â Áö¿¬½Ã°£, ÀüÈ¯½Ã°£
+	fade_speed=500; //ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½Óµï¿½
+	delay_speed=5000; //ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã°ï¿½, ï¿½ï¿½È¯ï¿½Ã°ï¿½
 	slides=$("#slideimg div"); 
 	html="<div id='slidebtn'><ul id='slideAllCount'>";
 	
@@ -181,7 +181,7 @@ $(function(){
 
 
 
-<!--ÀÍ½º¿¡¼­ ¾ÆÀÌÇÁ·¹ÀÓ¿¡ z-index°ªÀ» ¸Ô°ÔÇÏ´Â °Í-->
+<!--ï¿½Í½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿ï¿½ z-indexï¿½ï¿½ï¿½ï¿½ ï¿½Ô°ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½-->
 $(document).ready(function() {
    $("iframe").each(function(){
       var ifr_source = $(this).attr('src');
@@ -192,7 +192,7 @@ $(document).ready(function() {
 });
 
 
-<!--Åä±Û-->
+<!--ï¿½ï¿½ï¿½-->
 $(document).ready(function(){
   $(".hamburger").mouseover(function(){
     $(this).toggleClass("is-active");
