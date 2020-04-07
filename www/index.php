@@ -1,4 +1,4 @@
-<?
+<?php
 include "top.html";
 ?>
 
@@ -8,6 +8,6 @@ include "top.html";
 
 </div>
 
-<?
+<?php
 include "footer.html";
 ?>
