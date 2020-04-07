@@ -32,5 +32,5 @@ handlers:
   upload: www/(.*)
 
 # Serve php scripts.
-- url: /(.+\.php)$
+- url: www/(.+\.php)$
   script: \1
