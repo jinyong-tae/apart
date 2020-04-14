@@ -1,4 +1,4 @@
-<?
+<?php
 include "top.html";
 ?>
         
@@ -185,6 +185,6 @@ function download(downpath, org_name, file_name)
 
        </div>     
 
-<?
+<?php
 include "footer.html";
 ?>

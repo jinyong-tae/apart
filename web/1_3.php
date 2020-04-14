@@ -1,4 +1,4 @@
-<?
+<?php
 include "top.html";
 ?>
         
@@ -8,10 +8,10 @@ include "top.html";
             <div id="sub_title">사업개요<u>바다를 전망하는 주문진의 중심에서 주거문화의 새 바람을 일으키다!</u></div>
             <div id="sub_tab_w">
             	<ul class="sub_tab col4">
-    <li class=""><a href="1_1.html">사업개요</a></li>
-    <li class=""><a href="1_2.html">입지환경</a></li>
-    <li class="select"><a href="1_3.html">브랜드 소개</a></li>
-    <li class=""><a href="1_4.html">오시는 길</a></li>
+    <li class=""><a href="1_1.php">사업개요</a></li>
+    <li class=""><a href="1_2.php">입지환경</a></li>
+    <li class="select"><a href="1_3.php">브랜드 소개</a></li>
+    <li class=""><a href="1_4.php">오시는 길</a></li>
 </ul>
 
             </div>
@@ -38,6 +38,6 @@ include "top.html";
 
        </div>        
 
-<?
+<?php
 include "footer.html";
 ?>

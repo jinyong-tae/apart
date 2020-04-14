@@ -1,4 +1,4 @@
-<?
+<?php
 include "top.html";
 ?>
         
@@ -8,10 +8,10 @@ include "top.html";
             <div id="sub_title">단지안내<u>바다를 전망하는 주문진의 중심에서 주거문화의 새 바람을 일으키다!</u></div>
             <div id="sub_tab_w">
             	<ul class="sub_tab col4">
-    <li class=""><a href="2_1.html">단지이미지</a></li>
-    <li class=""><a href="2_2.html">단지배치도</a></li>
-    <li class=""><a href="2_3.html">동호수 배치도</a></li>
-    <li class="select"><a href="2_4.html">프리미엄</a></li>
+    <li class=""><a href="2_1.php">단지이미지</a></li>
+    <li class="select"><a href="2_2.php">단지배치도</a></li>
+    <li class=""><a href="2_3.php">동호수 배치도</a></li>
+    <li class=""><a href="2_4.php">프리미엄</a></li>
 </ul>
 
             </div>
@@ -19,7 +19,8 @@ include "top.html";
         
         <div id="container">
 			<div class="com1">
-				<img src="images/sub2_4_1.jpg">
+				<h3 class="tit1">단지배치도</h3>
+				<img src="images/sub2_2_1.jpg">
 				<ul class="list_s">
 						<li>각 타입별 동ㆍ호수 배치는 작업과정상 오류가 발생할 수 있으니 견본주택 내 단지모형도 및 입주자모집공고를 참고하시어 착오 없으시길 바랍니다.</li>
 						<li>상기 단지배치도는 소비자의 이해를 돕기 위한 것으로 실제와 차이가 있을 수 있습니다.</li>
@@ -29,6 +30,6 @@ include "top.html";
 
        </div>        
 
-<?
+<?php
 include "footer.html";
 ?>

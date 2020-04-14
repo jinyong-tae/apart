@@ -1,32 +1,23 @@
-#runtime: python27
-#api_version: 1
-#threadsafe: true
+runtime: php
+env: flex
 
-#handlers:
-#- url: /
-#  static_files: www/index.html
-#  upload: www/index.html
+runtime_config:
+  document_root: web
 
-#- url: /(.*)
-#  static_files: www/\1
-#  upload: www/(.*)
+# This sample incurs costs to run on the App Engine flexible environment.
+# The settings below are to reduce costs during testing and are not appropriate
+# for production use. For more information, see:
+# https://cloud.google.com/appengine/docs/flexible/php/configuring-your-app-with-app-yaml
+##manual_scaling:
+##  instances: 1
+##resources:
+##  cpu: 1
+##  memory_gb: 0.5
+##  disk_size_gb: 10
 
-# Use the PHP 7.3 runtime (BETA) by replacing "php72" below with "php73"
-runtime: php72
-
-# Defaults to "serve index.php" and "serve public/index.php". Can be used to
-# serve a custom PHP front controller (e.g. "serve backend/index.php") or to
-# run a long-running PHP script as a worker process (e.g. "php worker.php").
-#
-# entrypoint: serve index.ph
-#
-#
-#
-handlers:
-- url: /
-  static_files: www/index.html
-  upload: www/index.html
-
-- url: /(.*)
-  static_files: www/\1
-  upload: www/(.*)
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 5
+  cool_down_period_sec: 180
+  cpu_utilization:
+    target_utilization: 0.6

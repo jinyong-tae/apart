@@ -1,4 +1,4 @@
-<?
+<?php
 include "top.html";
 ?>
         
@@ -8,10 +8,10 @@ include "top.html";
             <div id="sub_title">단지안내<u>바다를 전망하는 주문진의 중심에서 주거문화의 새 바람을 일으키다!</u></div>
             <div id="sub_tab_w">
             	<ul class="sub_tab col4">
-    <li class=""><a href="2_1.html">단지이미지</a></li>
-    <li class=""><a href="2_2.html">단지배치도</a></li>
-    <li class="select"><a href="2_3.html">동호수 배치도</a></li>
-    <li class=""><a href="2_4.html">프리미엄</a></li>
+    <li class=""><a href="2_1.php">단지이미지</a></li>
+    <li class=""><a href="2_2.php">단지배치도</a></li>
+    <li class="select"><a href="2_3.php">동호수 배치도</a></li>
+    <li class=""><a href="2_4.php">프리미엄</a></li>
 </ul>
 
             </div>
@@ -30,6 +30,6 @@ include "top.html";
 
        </div>        
 
-<?
+<?php
 include "footer.html";
 ?>

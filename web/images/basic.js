@@ -19,25 +19,25 @@
 			});
 
 			$("#link_menu01").click(function() {
-				location.href='../1_1.html';
+				location.href='../1_1.php';
 			});
 			$("#link_menu02").click(function() {
-				location.href='../2_1.html';
+				location.href='../2_1.php';
 			});
 			$("#link_menu03").click(function() {
-				location.href='../3_1.html';
+				location.href='../3_1.php';
 			});
 			$("#link_menu04").click(function() {
-				location.href='../1_1.html';
+				location.href='../1_1.php';
 			});
 			$("#link_menu05").click(function() {
-				location.href='../4_1.html';
+				location.href='../4_1.php';
 			});
 			$("#link_menu06").click(function() {
-				location.href='../5_1.html';
+				location.href='../5_1.php';
 			});
 			$("#link_menu07").click(function() {
-				location.href='../6_1.html';
+				location.href='../6_1.php';
 			});
 			
 			

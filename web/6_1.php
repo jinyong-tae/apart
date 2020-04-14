@@ -1,4 +1,4 @@
-<?
+<?php
 include "top.html";
 ?>
         
@@ -317,6 +317,6 @@ function setCateInit(pLevel)
 </form>
        </div>         
 
-<?
+<?php
 include "footer.html";
 ?>
